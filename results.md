@@ -6,13 +6,14 @@ Results for the Software Interview Problems
 - C++ Docker Image
 
 ```
-template - area for input
+- The build fail at "RUN make" so I fiddle around and alter the Makefile I change the Target to current directory and turn src/test.cpp to test.cpp
+
 ```
 
 -  Python Docker Image
 
 ```
-template - area for input
+The was nothing wrong with this build and Dockerfile
 ```
 
 - Java Docker Image
@@ -26,7 +27,7 @@ template - area for input
 - C++ Build
 
 ```
-template - area for input
+The code is implemented and seems to be running fine.
 ```
 
 - Java Build
@@ -38,7 +39,7 @@ template - area for input
 - Python Run
 
 ```
-template - area for input
+Implement
 ```
 
 # Problem - 3
