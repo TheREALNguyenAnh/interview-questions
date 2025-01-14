@@ -63,6 +63,4 @@ Implement the refer function in LRU cache. So I used the logic in the c++ implem
 
 - Python Docker Run Output
 
-```
-template - area for input
-```
+![lru_python](https://github.com/user-attachments/assets/0a73128b-041a-47bc-9ba6-839ad7fac617)
