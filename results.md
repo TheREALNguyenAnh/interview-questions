@@ -21,7 +21,9 @@ The was nothing wrong with this build and Dockerfile
 ```
 Running it cause Build Failure because there is no POM. So I copy pom.xml to usr/src.  
 Build then fail because source and target option 6 is no longer supported. Google the error, then fiddle with pom.xml, assign 11 to jdk.version.  
-Can not run because exec: java -jar target/lru-java-0.0.1.jar: not found. run ls -R to check if the file is in there. It is in there. Check if docker have java.   it does have java. Split up the argument, seems to work.   Error now is no main manifest attribute, in target/lru-java-0.0.1.jar. So I add a main manifest in the pom.xml. It now runs
+Can not run because exec: java -jar target/lru-java-0.0.1.jar: not found. run ls -R to check if the file is in there. It is in there. Check if docker have java.
+It does have java. Split up the argument, seems to work.
+Error now is no main manifest attribute, in target/lru-java-0.0.1.jar. So I add a main manifest in the pom.xml. It now runs on container
 
 ```
 
