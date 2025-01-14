@@ -51,9 +51,9 @@ Implement the refer function in LRU cache. So I used the logic in the c++ implem
 
 - C++ Docker Run Output
 
-```
-template - area for input
-```
+
+![lru_cpp](https://github.com/user-attachments/assets/b5d61ed0-4d93-4018-9c09-f4db9c23078e)
+
 
 - Java Docker Run Output
 
