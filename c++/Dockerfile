@@ -2,12 +2,13 @@
 FROM gcc
 
 # Copy the current folder which contains C++ source code to the Docker image under /usr/src
-COPY src /usr/src/
+COPY src/ /usr/src/
 COPY Makefile /usr/src/
 
 # Specify the working directory
 WORKDIR /usr/src/
 
+RUN ls -R
 # Use GCC to compile the Test.cpp source file
 RUN make
 
